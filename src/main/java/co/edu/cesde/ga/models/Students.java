@@ -3,7 +3,7 @@ package co.edu.cesde.ga.models;
 public class Students extends Persons  {
     private String birthDate;
 
-    public Students(){
+    public Students(long l, String number, String id, String camilo, String gonzalez, boolean b){
         super();
     }
 
