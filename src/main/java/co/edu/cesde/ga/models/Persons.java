@@ -1,11 +1,11 @@
 package co.edu.cesde.ga.models;
 
 public class Persons {
-    Long userId;
-    String code;
-    String documentNumber;
-    String firstName;
-    String lastName;
+    private Long userId;
+    private String code;
+    private String documentNumber;
+    private String firstName;
+    private String lastName;
 
     public Persons(Long userId, String code, String documentNumber, String firstName, String lastName, Boolean status) {
         this.userId = userId;
@@ -64,6 +64,9 @@ public class Persons {
 
     public void setStatus(Boolean status) {
         this.status = status;
+    }
+
+    public  Persons() {
     }
 }
 
