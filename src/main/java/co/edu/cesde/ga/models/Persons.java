@@ -66,7 +66,18 @@ public class Persons {
         this.status = status;
     }
 
-    public  Persons() {
+    public Persons() {}
+    @Override
+    public String toString() {
+        return "Person{" +
+                "userId=" + userId +
+                ", code=" + code +
+                ", documentNumber+" + documentNumber +
+                ", firstName=" + firstName +
+                ", lastName=" + lastName +
+                ", status=" + status +
+                '}';
     }
-}
 
+
+}

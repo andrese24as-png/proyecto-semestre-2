@@ -11,13 +11,13 @@ public class Main {
         Persons persons3 = new Persons ();
 
         persons.setFirstName("Andres");
-        persons.setLastName("");
+        persons.getLastName();
         persons2.setFirstName("Camilo");
-        persons2.setLastName("");
+        persons2.getLastName();
         persons3.setFirstName("Juan");
-        persons3.setLastName("");
+        persons3.getLastName();
 
-        Persons persons4 = new Persons (  );
+        Persons persons4 = new Persons ( 1L, "123", "1013339764", "Andres", "Escobar", true    );
         persons4.getFirstName();
 
 
