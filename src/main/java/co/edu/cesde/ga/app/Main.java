@@ -5,7 +5,7 @@ import co.edu.cesde.ga.models.Students;
 import co.edu.cesde.ga.models.Teachers;
 
 
-public class Main {
+public  class Main {
     public static void main(String[] args) {
         System.out.println("Hello World");
         Persons persons = new Persons ();

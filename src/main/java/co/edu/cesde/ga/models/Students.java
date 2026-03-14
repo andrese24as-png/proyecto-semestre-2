@@ -1,6 +1,6 @@
 package co.edu.cesde.ga.models;
 
-public class Students extends Persons  {
+public  class Students extends Persons  {
     private String birthDate;
 
     public Students(long l, String number, String id, String camilo, String gonzalez, boolean b){
